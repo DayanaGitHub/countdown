@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images\ \(2\).jpg");
+    background-size: cover;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    gap: 10px;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+}
+
+#newYear{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+}
+
+.box small{
+    font-size: 10px;
+}
+
+@media(min-width:576px){
+    .newYear{
+        font-size: 100px;
+    }
+}
+
+@media(min-width:768px){
+    .newYear{
+        font-size: 150px;
+    }
+}
